@@ -1,0 +1,10 @@
+@mixin fondo-borroso($valor){
+
+    background-image: $valor;
+    background-size: cover;
+    filter: blur(3px);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+}

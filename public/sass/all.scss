@@ -1,0 +1,34 @@
+@use 'background';
+
+*{
+
+    scroll-behavior: smooth;
+
+}
+
+#bg-inicio{
+
+    @include background.fondo-borroso(url(../img/Fondos/Inicio.jfif))
+
+}
+#bg-conocimientos{
+
+    @include background.fondo-borroso(url(../img/Fondos/conocimientos.jfif))
+
+}
+#bg-proyectos{
+
+    @include background.fondo-borroso(url(../img/Fondos/proyectos.jfif))
+
+}
+#bg-contacto{
+
+    @include background.fondo-borroso(url(../img/Fondos/contacto.jfif))
+
+}
+
+main{
+
+    margin-top: 60px;
+
+}

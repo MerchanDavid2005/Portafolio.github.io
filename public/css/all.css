@@ -1,0 +1,45 @@
+* {
+  scroll-behavior: smooth;
+}
+
+#bg-inicio {
+  background-image: url(../img/Fondos/Inicio.jfif);
+  background-size: cover;
+  filter: blur(3px);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+#bg-conocimientos {
+  background-image: url(../img/Fondos/conocimientos.jfif);
+  background-size: cover;
+  filter: blur(3px);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+#bg-proyectos {
+  background-image: url(../img/Fondos/proyectos.jfif);
+  background-size: cover;
+  filter: blur(3px);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+#bg-contacto {
+  background-image: url(../img/Fondos/contacto.jfif);
+  background-size: cover;
+  filter: blur(3px);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+main {
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=all.css.map */
